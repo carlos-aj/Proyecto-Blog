@@ -1,0 +1,24 @@
+{
+    "name": "carlos/blog",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Carlos\\blog\\": "./",
+            "Controllers\\" : "./Controllers",
+            "Models\\": "./Models",
+            "Lib\\":"./Lib",
+            "Repositories\\":"./Repositories",
+            "Services\\":"./Services"
+        }
+    },
+    "authors": [
+        {
+            "name": "carlosarana"
+        }
+    ],
+    "require": {
+        "stefangabos/zebra_pagination": "^2.4",
+        "vlucas/phpdotenv": "^5.6",
+        "pagerfanta/pagerfanta": "^4.5"
+    }
+}
